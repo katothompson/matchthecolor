@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+      <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta charset="UTF8">
+            <title>Color Picker</title>
+            <link rel="stylesheet" href="colorpicker.css">
+            <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+      </head>
+      <body>
+            <div id = 'title'><h1>Color Picker</h1></div>
+            <div id='rowcontainer' class='w100'>
+                  <div id='red' class = 'row'><div class="color"></div><div class="color"></div><div class="color"></div></div>
+                  <div id='green' class = 'row'><div class="color"></div><div class="color"></div><div class="color"></div></div>
+                  <div id='blue' class = 'row'><div class="color"></div><div class="color"></div><div class="color"></div></div>
+            </div>
+            
+            <div class="w100">
+                  <div id="challenge" class="w33"></div>
+                  <div id="guess" class='w33'></div>
+                  <div id='image'><img src='AdditiveColor.svg.png'></div>
+            </div>
+           
+            <div id='message' class='w100'>
+                  <h2 class="success"> </h2>
+            </div>
+            <div id = "level">
+                        <button onclick="drawTiles()">RESET</button>
+                        <input type='radio' class='level' id="levelOne" value=4 name="level" checked>
+                        <label for="levelOne">Easy</label>
+                        <input type='radio' class='level' id="levelTwo" value=6 name="level">
+                        <label for="levelTwo">Hard</label>
+                        <input type='radio' class='level' id="levelThree" value=11 name="level">
+                        <label for="levelThree">Time to Waste</label> 
+                  </div>
+
+      <script src='colorpickerJquery.js'></script>      
+      </body>
+</html>

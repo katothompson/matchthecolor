@@ -1,0 +1,72 @@
+body {
+      background-color: lightgrey;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #F6BE46;
+}
+div {
+      background-color: #F3F3F3;
+      border-radius: 5px;
+      max-width: 360px;
+      margin: 0 auto;
+}
+button {
+      background-color: #4A2C96;
+      border-radius: 5px;
+      width: 50px;
+      color: #F6BE46;
+      border: none;
+      padding: 8px 9px;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      display: inline-block;
+      margin: 1%;
+}
+button:hover {
+      background-color: #5C419A
+}
+button:active {
+      border: 2px solid #1E1632;
+}
+img {
+      width: 31%;
+      margin: 1%;
+}
+h1,h2 {
+      text-align: center;
+}
+h2 {
+      /* transform: rotate(0deg);
+      transition: transform 2s; */
+      font-size: 1.5em;
+      transition: font-size 1s;
+}
+.w100 {
+      clear: left;
+}
+.color {
+      margin: 2%;
+      float: left;
+}
+.w33 {
+      width: 31%;
+      margin: 1%;
+      padding-top: 31%;
+      float: left;
+      background-color: lightblue;
+      box-shadow: inset 1px 1px   #F6BE46, inset -2px -2px #F6BE46;
+      transform: rotate(0deg);
+      transition: transform 3s;
+}
+.picked {
+      box-shadow: inset 1px 1px   #F6BE46, inset -3px -4px 3px #F6BE46;
+      border-radius: 12px;
+}
+.success {
+      transform: rotate(360deg);
+      font-size: 2em;
+}
+#title, #message {
+      background-color: #4A2C96;
+      border-radius: 5px;
+}

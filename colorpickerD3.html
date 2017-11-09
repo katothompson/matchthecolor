@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+      <head>
+            <title>Color Matching Game</title>
+            <meta charset = 'UTF8'>
+            <meta name='viewport' content='width = device-width, initial-scale = 1.0'>
+            <link rel='stylesheet' href='colorpicker.css'>
+      </head>
+      <body>
+            <div id = 'title'><h1>Color Picker</h1></div>
+            <div id='rowcontainer' class='w100'></div>
+            <div class="w100">
+                  <div id="challenge" class="w33"></div>
+                  <div id="guess" class='w33'></div>
+                  <div id='image'><img src='AdditiveColor.svg.png'></div>
+            </div>
+           
+            <div id='message' class='w100'>
+                  <h2 class="success"> Message </h2>
+            </div>
+            <div id = "level">
+                        <button onclick="reset()">RESET</button>
+                        <input type='radio' class='level' id="levelOne" value=4 name="level" checked>
+                        <label for="levelOne">Easy</label>
+                        <input type='radio' class='level' id="levelTwo" value=6 name="level">
+                        <label for="levelTwo">Hard</label>
+                        <input type='radio' class='level' id="levelThree" value=11 name="level">
+                        <label for="levelThree">Time to Waste</label> 
+                  </div>
+
+            <script src="https://d3js.org/d3.v4.min.js"></script>      
+            <script src='colorpickerD3.js'></script>
+      </body>
+</html>
