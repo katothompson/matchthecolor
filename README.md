@@ -1,6 +1,11 @@
 # matchthecolor
 Match the Color by guessing the red, green, and blue channels.
 
+Written in javacript.
+Then refactored in jquery.
+Then rewritten in D3.
+![Match the Color Screenshot](/ColorPickerScreenshot.png?raw=true "Match the Color Screenshot")
+
 This was a coding exercise. I wrote the code in vanilla javascript, then refactored it in jQuery.
 The difference was about 45 lines of code. (190 vs 145) <br>
 vanilla
